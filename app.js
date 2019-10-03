@@ -31,12 +31,12 @@ console.log("My name is " + name + " my age is " + age + " I am working in " + c
  My salary is ${salary}`);
  
 
-
- console.log(typeof name);
+// String DT
+console.log(typeof name);
 console.log(typeof str1);
 console.log(typeof str2);
 
-// Number
+// Number DT
 var num=10;
 var num1=10.10;
 var num2=1/1;
@@ -45,7 +45,37 @@ console.log(typeof num);
 console.log(typeof num1);
 console.log(typeof num2);
 
+// Boolean DT
+var test=true;
+var test1=false;
+console.log(typeof test);
 
+// Undefined PDT -Declared but not used.
+
+// Null DT-Declare a variable instead of not assigning any value assign null 
+var test=null;
+console.log(typeof null);
+
+// Symbol DT-It is used to make it unique.
+
+
+var name="mayank";
+name=20;
+name=true;
+name=undefined;
+name=null;
+
+let name1="mayank";
+name=20;
+name=true;
+name=undefined;
+name=null;
+
+const name2="mayank";
+name=20;
+name=true;
+name=undefined;
+name=null;
 
 
 
